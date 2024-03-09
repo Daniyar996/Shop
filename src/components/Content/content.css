@@ -1,0 +1,50 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.filter-content {
+    width: 14%;
+    padding: 10px;
+
+
+}
+.InputFilter{
+    padding:10px;
+}
+
+.filter-ch1{
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px;
+}
+
+
+.content-h1 {
+    display: flex; /* Располагаем карточки в строку */
+    flex-wrap: wrap; /* Позволяет карточкам переноситься на новую строку при необходимости */
+    justify-content: space-between; /* Распределяем карточки по ширине контейнера */
+    padding: 20px;
+    width: 82%;
+}
+
+.card-product{
+    padding: 10px;
+}
+
+.card-product img{
+    height: 300px;
+}
+
+.handle-page{
+    position: relative;
+    margin-top: 50px;
+    bottom: 20px;
+}
+.button-handle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,29 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+}
+
+
+.logo {
+    width: 8em;
+    margin: 0 20px;
+    cursor: pointer;
+
+
+}
+.heading {
+    font-family: "Times New Roman";
+
+}
+.content-divider{
+    border: none;
+    border-top: 1px solid #000; /* цвет и стиль линии */
+    margin: 10px 0; /* расстояние от контента */
+}
+
+.nav-bar{
+    align-items: center;
+}
